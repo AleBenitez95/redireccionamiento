@@ -1,7 +1,14 @@
 # Redireccionamiento
-## Genera un archivo llamado informe.txt que contenga la siguiente información:
+## Crear un script que contenga la siguiente información:
+
+Para empezar el script hacemos:
+```
+nano script.sh
+```
+A continuación hacemos el script y escribimos lo siguiente:
+```
 #!bin/bash
- 
+```
  
 La fecha del sistema formateada. 
 ```
@@ -19,4 +26,14 @@ Usuarios conectados en el sistemas.
 ```
 who
 ```
-Hay que subir una imagen de que el script ha sido ejecutado con éxito.
+Ejecutamos el script y lo guardamos en un archivo llamado ***informe.txt***, para hacer esto ejecutamos el siguiente comando:
+```
+sh script.sh>informe.txt
+```
+
+![terninal-1](img/1.png)
+<!-- linea horizontal -->
+---
+---
+
+![terminal-2](img/2.png)
